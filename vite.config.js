@@ -18,4 +18,5 @@ export default defineConfig({
     }
   },
   plugins: [react()],
+  base:"/Proyecto-Web-final"
 })
