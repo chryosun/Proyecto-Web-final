@@ -1,0 +1,37 @@
+.ayuda-section {
+    text-align: center;
+}
+
+.ayuda-container {
+    display: flex;
+}
+
+.ayuda {
+    padding: 30px;
+    margin: 30px;
+    background-color: #fff;
+    height: 450px;
+    border-radius: 20px;
+}
+
+.ayuda img {
+    height: 250px;
+}
+
+img.redes {
+    margin: 0 10px;
+    height: 50px !important;
+    width: 50px !important;
+}
+
+@media screen and (max-width: 1200px) {
+    .ayuda-container {
+      display: block;
+    }
+    }
+
+    @media screen and (max-width: 767) {
+        .ayuda img {
+            width: 230px !important;
+        }
+        }

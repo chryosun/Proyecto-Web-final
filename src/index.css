@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  height:100%;
+  width:100%;
+}
+body {
+  background-color: #eaeaea;
+  margin:0px;
+  min-height:100%;
+  width:100%;
+  padding:0px;
+}

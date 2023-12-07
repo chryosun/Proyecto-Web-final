@@ -1,0 +1,20 @@
+.entradas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+}
+
+.entradas a {
+    text-decoration: none;
+    color: #000; 
+}
+
+.entrada {
+    background-color: #fff;
+    width: 300px;
+    margin: 10px 20px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}

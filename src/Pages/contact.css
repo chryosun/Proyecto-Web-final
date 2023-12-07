@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    margin: 10px 40px;
+}
+
+.image img {
+    width: 500px;
+}
+
+.input-box {
+    margin: 20px;
+}
+
+.input-box input {
+    width: 600px;
+    padding: 10px;
+    border: 2px solid rgb(13, 13, 94);
+    border-radius: 10px;
+}
+
+textarea {
+    resize: none;
+    width:600px;
+    height: 100px;
+    padding: 10px;
+    border: 2px solid rgb(13, 13, 94);
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(13, 13, 94);
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+button:hover {
+    color: rgb(13, 13, 94);
+    background-color: #fff;
+}

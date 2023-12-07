@@ -1,0 +1,91 @@
+.quienes-somos {
+    display: flex;
+    padding: 20px;
+    justify-content:space-around;
+    margin-bottom: 30px;
+}
+
+.quienes-somos div {
+    width: 30%;
+}
+
+.informacion-nosotros {
+   align-self: center;
+}
+.quienes-somos img {
+    align-self: center;
+    width: 600px;
+    margin: 0px;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    padding:0px;
+
+}
+
+.mision-vision {
+    display: flex;
+    padding: 30px;
+}
+
+.mision-vision div {
+    margin: 0 30px;
+}
+
+.valores {
+    padding: 20px;
+    text-align: center;
+}
+
+.container-valor {
+    display: flex;   
+}
+
+.valor {
+    padding: 0 10px;
+}
+
+.valor.border {
+    border-right: 2px solid #000;
+}
+
+@media screen and (max-width: 1200px) {
+    .quienes-somos {
+        display: block;
+        padding: 30px;
+    }
+    
+    .quienes-somos img {
+        width: 300px;
+        margin: 0 30px;
+        justify-content: center;
+        position: relative;
+        top: 0;
+    }
+    
+    .mision-vision {
+        display: block;
+        padding: 30px;
+    }
+
+    
+    .valores {
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .container-valor {
+        display: block;   
+    }
+    
+    
+    .valor.border {
+        border-right: none;
+    }
+    }
+    
+    @media screen and (max-width: 640px) {
+        .quienes-somos img {
+            width: 200px;
+        }
+    }

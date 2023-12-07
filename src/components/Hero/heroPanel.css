@@ -1,0 +1,8 @@
+.heroImg {
+    @apply h-screen w-screen;
+    background-image: url('../../assets/heroImg.avif');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+

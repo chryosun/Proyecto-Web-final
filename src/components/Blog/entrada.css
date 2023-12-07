@@ -1,0 +1,23 @@
+.entradaBlog {
+    margin: 40px;
+}
+#progress {
+    margin: 0;
+    position: fixed;
+    left: 0px;
+    height: 0%;
+    background:#878787;
+    width: 5px;
+  
+    animation: progress-grow auto linear;
+    animation-timeline: scroll(root);
+  }
+  
+  @keyframes progress-grow {
+    from  {
+      height: 0%;
+    }
+    to {
+      height: 100%;
+    }
+  }
