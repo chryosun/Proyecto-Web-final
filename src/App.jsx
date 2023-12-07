@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom';
 import { Galeria } from './Pages/Galeria';
 import { Blog } from './Pages/Blog';
 import { Eventos } from './Pages/Eventos';
@@ -15,15 +15,16 @@ import { Entrada3 } from './components/Blog/entrada3';
 import './App.css';
 
 const App = () => {
+  const routes = []
   return (
-    <Router>
+    <BrowserRouter basename={import.meta.env.DEV ? '/' : '/Proyecto-Web-final'}>
       <Routes>
-      <Route path="/" element={<Inicio />} />
+        <Route path="/" element={<Inicio />} />
         <Route path="/acerca-de-nosotros" element={<About />} />
         <Route path="/como-ayudar" element={<Ayuda />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/faq" element={<FAQ />} />
-        <Route path="/eventos" element={<Eventos/>}></Route>
+        <Route path="/eventos" element={<Eventos />}></Route>
         <Route path="/galeria" element={<Galeria />} />
         <Route path="/contactenos" element={<Contacto />} />
         <Route path="/nuestros-programas" element={<Programas />} />
@@ -32,7 +33,7 @@ const App = () => {
         <Route path="/entrada2" element={<Entrada2 />} />
         <Route path="/entrada3" element={<Entrada3 />} />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 
