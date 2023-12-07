@@ -8,4 +8,4 @@ P.S por razones de seguridad del repositorio, se hizo este nuevo para evitar con
 | Naidelyn Azeneth Maldonado Davila| NaiDevs          |
 | Freddy Arnoldo Reyes Solis       | LilFeest         |
 | Wilmer Jair Garcia Rodriguez     | wilmergrodz      |
-| Jose Carlos Paz Mena             |                  |
+| Jose Carlos Paz Mena             | JCPM4            |
